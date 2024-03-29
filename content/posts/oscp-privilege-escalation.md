@@ -1,10 +1,10 @@
 +++
-draft = true
+draft = false
 date = 2024-03-29T23:40:34+01:00
 title = "OSCP Course Privilege Escalation Notes"
 description = "Notes on privilege escalation techniques covered in the OSCP course."
 slug = ""
-authors = []
+authors = ["Ahmed Boureghida"]
 tags = ["OSCP", "privilege-escalation", "enumeration", "Windows", "Linux"]
 categories = ["Cybersecurity", "Penetration Testing"]
 externalLink = ""
