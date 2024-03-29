@@ -1,5 +1,5 @@
 baseurl = "http://www.example.com"
-title = "johndoe"
+title = "Ahmed Boureghida"
 theme = "hugo-coder"
 languagecode = "en"
 defaultcontentlanguage = "en"
@@ -12,7 +12,7 @@ disqusShortname = "yourdiscussshortname"
 style = "github-dark"
 
 [params]
-  author = "John Doe"
+  author = "Ahmed Boureghida"
   info = "Full Stack DevOps and Magician"
   description = "John Doe's personal website"
   keywords = "blog,developer,personal"
