@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Your Site Title</title>
+    <title>Posts on johndoe</title>
     <link>http://localhost:1313/posts/</link>
-    <description>Recent content in Posts on Your Site Title</description>
+    <description>Recent content in Posts on johndoe</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>en</language>
     <lastBuildDate>Fri, 29 Mar 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -13,7 +13,7 @@
       <link>http://localhost:1313/posts/mypost/</link>
       <pubDate>Fri, 29 Mar 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/mypost/</guid>
-      <description>My First Post Welcome to my first post on my new blog!&#xA;Introduction In this post, I&amp;rsquo;ll be discussing Hugo, a fantastic static site generator.&#xA;What is Hugo? Hugo is a fast and flexible static site generator built with Go. It allows you to create websites quickly and efficiently, with the power of modern web development tools.&#xA;Why Hugo? Speed: Hugo is incredibly fast, making it ideal for building large websites in a short amount of time.</description>
+      <description>My First Post Link to heading Welcome to my first post on my new blog!&#xA;Introduction Link to heading In this post, I&amp;rsquo;ll be discussing Hugo, a fantastic static site generator.&#xA;What is Hugo? Link to heading Hugo is a fast and flexible static site generator built with Go. It allows you to create websites quickly and efficiently, with the power of modern web development tools.&#xA;Why Hugo? Link to heading Speed: Hugo is incredibly fast, making it ideal for building large websites in a short amount of time.</description>
     </item>
   </channel>
 </rss>

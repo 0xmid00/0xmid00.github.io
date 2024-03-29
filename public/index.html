@@ -1,106 +1,242 @@
 <!DOCTYPE html>
-<html lang="en-us">
-    <head>
-	<meta name="generator" content="Hugo 0.124.1"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
-		
-		
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-			<meta name="description" content="">
+<html lang="en">
 
-		<title>Your Site Title</title>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <title>johndoe</title>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light dark">
 
-		
-		<link rel="stylesheet" href="/css/style.css">
-		<link rel="stylesheet" href="/css/fonts.css">
-		
-		<link rel="icon" href="/favicon.ico"/>
-		<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
-		<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
-		<link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
 
-		
-		<link href="/index.xml" rel="alternate" type="application/rss+xml" title="Your Site Title" />
 
-		<script src="/js/darkmode.js"></script>
-	</head>
 
-    <body>
-        		<nav class="nav">
-			<div class="nav-container">
-				<a href="/">
-					
-						<h1 class="nav-title">Your Site Title</h1>
-					
-				</a>
-				<ul>
+<meta name="author" content="John Doe">
+<meta name="description" content="John Doe&#39;s personal website">
+<meta name="keywords" content="blog,developer,personal">
+
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="johndoe"/>
+<meta name="twitter:description" content="John Doe&#39;s personal website"/>
+
+<meta property="og:title" content="johndoe" />
+<meta property="og:description" content="John Doe&#39;s personal website" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="http://localhost:1313/" />
+
+
+
+
+<link rel="canonical" href="http://localhost:1313/">
+
+
+<link rel="preload" href="/fonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/fa-regular-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin>
+
+
+  
+  
+  <link rel="stylesheet" href="/css/coder.css" media="screen">
+
+
+
+
+
+
+  
     
     
-        <li>
-            <a href="/about/">
-                
-                <span>About</span>
-                
-            </a>
-        </li>
-    
-        <li>
-            <a href="/posts/">
-                
-                <span>Posts</span>
-                
-            </a>
-        </li>
-    
-</ul>
-			</div>
-		</nav>
+    <link rel="stylesheet" href="/css/coder-dark.css" media="screen">
+  
 
-        <div id="darkModeToggle" onclick="toggleDarkMode()">
-  &#9680; 
+
+
+ 
+
+
+
+
+<link rel="icon" type="image/svg+xml" href="/img/favicon.svg" sizes="any">
+<link rel="icon" type="image/png" href="/img/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/img/favicon-16x16.png" sizes="16x16">
+
+<link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#5bbad5">
+
+
+<link rel="alternate" type="application/rss+xml" href="/index.xml" title="johndoe" />
+
+
+<meta name="generator" content="Hugo 0.124.1">
+
+
+
+
+
+</head>
+
+
+
+
+
+
+<body class="preload-transitions colorscheme-auto">
+  
+<div class="float-container">
+    <a id="dark-mode-toggle" class="colorscheme-toggle">
+        <i class="fa-solid fa-adjust fa-fw" aria-hidden="true"></i>
+    </a>
 </div>
 
+
+  <main class="wrapper">
+    <nav class="navigation">
+  <section class="container">
+    
+    <a class="navigation-title" href="http://localhost:1313/">
+      johndoe
+    </a>
+    
+    
+      <input type="checkbox" id="menu-toggle" />
+      <label class="menu-button float-right" for="menu-toggle">
+        <i class="fa-solid fa-bars fa-fw" aria-hidden="true"></i>
+      </label>
+      <ul class="navigation-list">
         
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/posts/">Blog</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/about/">About</a>
+            </li>
+          
+        
+        
+      </ul>
+    
+  </section>
+</nav>
 
-<main>
-	
+
+    <div class="content">
+      
+  <section class="container centered">
+  <div class="about">
+    
+  
+    <div class="avatar"><img src="/images/avatar.jpg" alt="avatar"></div>
+  
 
 
-	<div class="catalogue">
-		
-			<a href="http://localhost:1313/posts/mypost/" class="catalogue-item">
-    <div>
-        <time datetime="2024-03-29 00:00:00 &#43;0000 UTC" class="catalogue-time">March 29, 2024</time>
-        <h2 class="catalogue-title">My First Post</h2>
-        <div class="catalogue-line"></div>
 
-        <p>
-            My First Post Welcome to my first post on my new blog!
-Introduction In this post, I&rsquo;ll be discussing Hugo, a fantastic static site generator.
-What is Hugo? Hugo is a fast and flexible static site generator built with Go. It allows you to create websites quickly and efficiently, with the power of modern web development tools.
-Why Hugo? Speed: Hugo is incredibly fast, making it ideal for building large websites in a short amount of time.
-        </p>
+
+    <h1>John Doe</h1>
+
+<h2>Full Stack DevOps and Magician </h2>
+
+
+
+    
+<ul>
+  
+    
+      <li>
+        <a href="https://github.com/johndoe/" aria-label="Github"   >
+          <i class="fa-brands fa-github fa-2x" aria-hidden="true"></i>
+        </a>
+      </li>
+    
+  
+    
+      <li>
+        <a href="https://gitlab.com/johndoe/" aria-label="Gitlab"   >
+          <i class="fa-brands fa-gitlab fa-2x" aria-hidden="true"></i>
+        </a>
+      </li>
+    
+  
+    
+      <li>
+        <a href="https://twitter.com/johndoe/" aria-label="Twitter"   >
+          <i class="fa-brands fa-x-twitter fa-2x" aria-hidden="true"></i>
+        </a>
+      </li>
+    
+  
+</ul>
+
+  </div>
+
+  
+
+</section>
+
+
     </div>
-</a>
 
-		
-	</div>
+    <footer class="footer">
+  <section class="container">
+    ©
+    
+      2019 -
+    
+    2024
+     John Doe 
+    ·
+    
+    Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/" target="_blank" rel="noopener">Coder</a>.
+    
+  </section>
+</footer>
 
-	<div class="pagination">
-		
-		
+  </main>
 
-		<span>1</span>
-	</div>
-</main>
+  
+
+  
+  
+  <script src="/js/coder.js"></script>
+  
+
+  
+
+  
 
 
-        		<footer>
-			
-			<span>
-			&copy; <time datetime="2024-03-29 17:29:24.466115643 &#43;0100 CET m=&#43;0.061399617">2024</time> . Made with <a href='https://gohugo.io'>Hugo</a> using the <a href='https://github.com/EmielH/tale-hugo/'>Tale</a> theme.
-			</span>
-		</footer>
+  
 
-    </body>
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+</body>
+
 </html>
