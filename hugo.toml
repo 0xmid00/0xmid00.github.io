@@ -16,7 +16,7 @@ style = "github-dark"
   info = "penetration testing student "
   description = "enjoys sharing what I learn with others"
   keywords = "blog,developer,personal"
-  avatarurl = "images/avatar.jpg"
+  avatarurl = "https://pbs.twimg.com/profile_images/1773811563712933888/Upe89yfH_400x400.jpg"
   #gravatar = "0xmid00@gmail.com"
 
   faviconSVG = "/img/favicon.svg"

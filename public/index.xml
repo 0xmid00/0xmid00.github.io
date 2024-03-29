@@ -6,21 +6,21 @@
     <description>Recent content on Ahmed Boureghida</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 29 Mar 2024 22:07:56 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 29 Mar 2024 23:40:34 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title></title>
-      <link>http://localhost:1313/posts/about/</link>
-      <pubDate>Fri, 29 Mar 2024 22:07:56 +0100</pubDate>
-      <guid>http://localhost:1313/posts/about/</guid>
-      <description></description>
+      <title>OSCP Course Privilege Escalation Notes</title>
+      <link>http://localhost:1313/posts/oscp-privilege-escalation/</link>
+      <pubDate>Fri, 29 Mar 2024 23:40:34 +0100</pubDate>
+      <guid>http://localhost:1313/posts/oscp-privilege-escalation/</guid>
+      <description>Information Gathering: Link to heading Manual Enumeration (User Information): Link to heading Windows: Link to heading whoami net user (list all users) net user [username] (get user info) Linux: Link to heading whoami cat /etc/passwd id Hostname Enumeration: Link to heading Common Commands: Link to heading Windows: hostname or systeminfo Linux: uname -a or cat /etc/issue List Services and Processes: Link to heading Windows: tasklist /SVC Linux: ps aux Network Enumeration: Link to heading IP Address: Link to heading Windows: ipconfig Linux: ifconfig Network Routes: Link to heading Windows: route print Linux: arp -a Network Connections: Link to heading Windows: netstat -ano Linux: ss -anp Firewall Enumeration: Link to heading Windows: Link to heading netsh advfirewall show currentprofile netsh advfirewall firewall show rule name=all Scheduled Tasks Enumeration: Link to heading Linux: Link to heading ls -lah /etc/cron* Windows: Link to heading schtasks /query /fo LIST /v Enumeration of Applications: Link to heading Linux: Link to heading dpkg -l or dpkg -l | grep ^ii (installed packages) lsmod (loaded kernel modules) Windows: Link to heading wmic product get name, version, vendor (installed software) wmic qfe get Caption, Description, HotFixID, InstalledOn (installed updates) Enumeration of Readable/Writable Files and Directories: Link to heading Windows: Link to heading Get-ChildItem &amp;quot;C:\Program Files&amp;quot; -Recurse | Get-Acl | Where-Object { $_.</description>
     </item>
     <item>
-      <title>My First Post</title>
-      <link>http://localhost:1313/posts/mypost/</link>
-      <pubDate>Fri, 29 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/mypost/</guid>
-      <description>My First Post Link to heading Welcome to my first post on my new blog!&#xA;Introduction Link to heading In this post, I&amp;rsquo;ll be discussing Hugo, a fantastic static site generator.&#xA;What is Hugo? Link to heading Hugo is a fast and flexible static site generator built with Go. It allows you to create websites quickly and efficiently, with the power of modern web development tools.&#xA;Why Hugo? Link to heading Speed: Hugo is incredibly fast, making it ideal for building large websites in a short amount of time.</description>
+      <title>About Me</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Fri, 29 Mar 2024 10:00:00 +0500</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description> Welcome to My Site Link to heading Hey my name is Ahmed Boureghida I&amp;rsquo;m a passionate cybersecurity enthusiast with a focus on offensive security. and honing my skills through hands-on practice on platforms like TryHackMe.&#xA;I studied network security , EJPT and OSCP coures and and honing my skills through hands-on practice on platforms like TryHackMe. continue to deepen my knowledge and expertise in the field.&#xA;Feel free to explore my blog and you can connect with me on Twitter or GitHub </description>
     </item>
   </channel>
 </rss>
