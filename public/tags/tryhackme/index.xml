@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>TryHackMe on Ahmed Boureghida</title>
-    <link>http://localhost:1313/tags/tryhackme/</link>
+    <link>http://localhost:39999/tags/tryhackme/</link>
     <description>Recent content in TryHackMe on Ahmed Boureghida</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 29 Mar 2024 23:40:34 +0100</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/tryhackme/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 07 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:39999/tags/tryhackme/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>TryHackMe Room: Pickle Rick Writeup</title>
-      <link>http://localhost:1313/posts/pickle_rick_writeup/</link>
-      <pubDate>Fri, 29 Mar 2024 23:40:34 +0100</pubDate>
-      <guid>http://localhost:1313/posts/pickle_rick_writeup/</guid>
-      <description></description>
+      <link>http://localhost:39999/posts/pickle_rick_writeup/</link>
+      <pubDate>Sun, 07 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:39999/posts/pickle_rick_writeup/</guid>
+      <description>TryHackMe Room: Pickle Rick Link to heading Description: A Rick and Morty themed CTF where the objective is to help turn Rick back into a human!&#xA;Difficulty: Easy&#xA;Link: Pickle Rick Room&#xA;1. Enumeration with Nmap Link to heading We initiate a comprehensive scan of the target machine using Nmap to identify available services and potential vulnerabilities:&#xA;sudo nmap -sS -sV -A -sC --script=vuln -T5 10.10.225.125 The scan reveals two open ports:</description>
     </item>
   </channel>
 </rss>
