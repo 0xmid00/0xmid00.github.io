@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Your Name on Ahmed Boureghida</title>
+    <link>http://localhost:1313/authors/your-name/</link>
+    <description>Recent content in Your Name on Ahmed Boureghida</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 07 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/authors/your-name/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>TryHackMe Room: Pickle Rick Writeup</title>
+      <link>http://localhost:1313/posts/pickle_rick_writeup/</link>
+      <pubDate>Sun, 07 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/pickle_rick_writeup/</guid>
+      <description>tryhackme room : Pickle Rick&#xA;A Rick and Morty CTF. Help turn Rick back into a human! difficulty: easy link: Pickle Rick Room&#xA;1- sudo nmap -sS -sV -A -sC &amp;ndash;script=vuln -T5 10.10.225.125 get 2 open ports&#xA;OpenSSH 7.2p2 Ubuntu 4ubuntu2.6 check the ssh vulnerability that nmap finds in the scan report and I get: &amp;hellip; i try many exploits but nothing can be exploited&#xA;Apache httpd 2.4.18 ((Ubuntu)) same I try many exploits but nothing can be exploited 2- gobuster dir -u http://10.</description>
+    </item>
+  </channel>
+</rss>

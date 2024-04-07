@@ -6,8 +6,15 @@
     <description>Recent content on Ahmed Boureghida</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 29 Mar 2024 23:40:34 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 07 Apr 2024 04:16:59 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Sun, 07 Apr 2024 04:16:59 +0100</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>Hey, my name is Ahmed Boureghida. I&amp;rsquo;m a passionate cybersecurity enthusiast with a focus on offensive security, honing my skills through hands-on practice on platforms like TryHackMe.&#xA;I&amp;rsquo;ve studied network security, I continue to deepen my knowledge and expertise in the field through practical experience.&#xA;Feel free to explore my blog, you can connect with me on Twitter or GitHub.</description>
+    </item>
     <item>
       <title>OSCP Course Privilege Escalation Notes</title>
       <link>http://localhost:1313/posts/oscp-privilege-escalation/</link>
@@ -16,11 +23,11 @@
       <description>Information Gathering: Link to heading Manual Enumeration (User Information): Link to heading Windows: Link to heading whoami net user (list all users) net user [username] (get user info) Linux: Link to heading whoami cat /etc/passwd id Hostname Enumeration: Link to heading Common Commands: Link to heading Windows: hostname or systeminfo Linux: uname -a or cat /etc/issue List Services and Processes: Link to heading Windows: tasklist /SVC Linux: ps aux Network Enumeration: Link to heading IP Address: Link to heading Windows: ipconfig Linux: ifconfig Network Routes: Link to heading Windows: route print Linux: arp -a Network Connections: Link to heading Windows: netstat -ano Linux: ss -anp Firewall Enumeration: Link to heading Windows: Link to heading netsh advfirewall show currentprofile netsh advfirewall firewall show rule name=all Scheduled Tasks Enumeration: Link to heading Linux: Link to heading ls -lah /etc/cron* Windows: Link to heading schtasks /query /fo LIST /v Enumeration of Applications: Link to heading Linux: Link to heading dpkg -l or dpkg -l | grep ^ii (installed packages) lsmod (loaded kernel modules) Windows: Link to heading wmic product get name, version, vendor (installed software) wmic qfe get Caption, Description, HotFixID, InstalledOn (installed updates) Enumeration of Readable/Writable Files and Directories: Link to heading Windows: Link to heading Get-ChildItem &amp;quot;C:\Program Files&amp;quot; -Recurse | Get-Acl | Where-Object { $_.</description>
     </item>
     <item>
-      <title>About Me</title>
-      <link>http://localhost:1313/about/</link>
-      <pubDate>Fri, 29 Mar 2024 10:00:00 +0500</pubDate>
-      <guid>http://localhost:1313/about/</guid>
-      <description> Welcome to My Site Link to heading Hey my name is Ahmed Boureghida I&amp;rsquo;m a passionate cybersecurity enthusiast with a focus on offensive security. and honing my skills through hands-on practice on platforms like TryHackMe.&#xA;I studied network security , EJPT and OSCP coures and and honing my skills through hands-on practice on platforms like TryHackMe. continue to deepen my knowledge and expertise in the field.&#xA;Feel free to explore my blog and you can connect with me on Twitter or GitHub </description>
+      <title>TryHackMe Room: Pickle Rick Writeup</title>
+      <link>http://localhost:1313/posts/pickle_rick_writeup/</link>
+      <pubDate>Fri, 29 Mar 2024 23:40:34 +0100</pubDate>
+      <guid>http://localhost:1313/posts/pickle_rick_writeup/</guid>
+      <description></description>
     </item>
   </channel>
 </rss>
