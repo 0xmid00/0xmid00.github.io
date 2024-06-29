@@ -57,10 +57,6 @@ int main() {
 }
 ```
 
-Sure, here’s the revised guide with an explanation about the string length and memory allocation:
-
----
-
 ## Creating Advanced Shellcode from Scratch
 
 ### What is Shellcode?
