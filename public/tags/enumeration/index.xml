@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Enumeration on Ahmed Boureghida</title>
-    <link>http://localhost:39999/tags/enumeration/</link>
+    <link>http://localhost:1313/tags/enumeration/</link>
     <description>Recent content in Enumeration on Ahmed Boureghida</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Sun, 07 Apr 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:39999/tags/enumeration/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/enumeration/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>TryHackMe Room: Pickle Rick Writeup</title>
-      <link>http://localhost:39999/posts/pickle_rick_writeup/</link>
+      <link>http://localhost:1313/posts/pickle_rick_writeup/</link>
       <pubDate>Sun, 07 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:39999/posts/pickle_rick_writeup/</guid>
-      <description>TryHackMe Room: Pickle Rick Link to heading Description: A Rick and Morty themed CTF where the objective is to help turn Rick back into a human!&#xA;Difficulty: Easy&#xA;Link: Pickle Rick Room&#xA;1. Enumeration with Nmap Link to heading We initiate a comprehensive scan of the target machine using Nmap to identify available services and potential vulnerabilities:&#xA;sudo nmap -sS -sV -A -sC --script=vuln -T5 10.10.225.125 The scan reveals two open ports:</description>
+      <guid>http://localhost:1313/posts/pickle_rick_writeup/</guid>
+      <description>TryHackMe Room: Pickle Rick Description: A Rick and Morty themed CTF where the objective is to help turn Rick back into a human!&#xA;Difficulty: Easy&#xA;Link: Pickle Rick Room&#xA;1. Enumeration with Nmap We initiate a comprehensive scan of the target machine using Nmap to identify available services and potential vulnerabilities:&#xA;sudo nmap -sS -sV -A -sC --script=vuln -T5 10.10.225.125 The scan reveals two open ports:&#xA;OpenSSH 7.2p2 Ubuntu 4ubuntu2.</description>
     </item>
     <item>
       <title>OSCP Course Privilege Escalation Notes</title>
-      <link>http://localhost:39999/posts/oscp-privilege-escalation/</link>
+      <link>http://localhost:1313/posts/oscp-privilege-escalation/</link>
       <pubDate>Fri, 29 Mar 2024 23:40:34 +0100</pubDate>
-      <guid>http://localhost:39999/posts/oscp-privilege-escalation/</guid>
-      <description>Information Gathering: Link to heading Manual Enumeration (User Information): Link to heading Windows: Link to heading whoami net user (list all users) net user [username] (get user info) Linux: Link to heading whoami cat /etc/passwd id Hostname Enumeration: Link to heading Common Commands: Link to heading Windows: hostname or systeminfo Linux: uname -a or cat /etc/issue List Services and Processes: Link to heading Windows: tasklist /SVC Linux: ps aux Network Enumeration: Link to heading IP Address: Link to heading Windows: ipconfig Linux: ifconfig Network Routes: Link to heading Windows: route print Linux: arp -a Network Connections: Link to heading Windows: netstat -ano Linux: ss -anp Firewall Enumeration: Link to heading Windows: Link to heading netsh advfirewall show currentprofile netsh advfirewall firewall show rule name=all Scheduled Tasks Enumeration: Link to heading Linux: Link to heading ls -lah /etc/cron* Windows: Link to heading schtasks /query /fo LIST /v Enumeration of Applications: Link to heading Linux: Link to heading dpkg -l or dpkg -l | grep ^ii (installed packages) lsmod (loaded kernel modules) Windows: Link to heading wmic product get name, version, vendor (installed software) wmic qfe get Caption, Description, HotFixID, InstalledOn (installed updates) Enumeration of Readable/Writable Files and Directories: Link to heading Windows: Link to heading Get-ChildItem &amp;quot;C:\Program Files&amp;quot; -Recurse | Get-Acl | Where-Object { $_.</description>
+      <guid>http://localhost:1313/posts/oscp-privilege-escalation/</guid>
+      <description>Information Gathering: Manual Enumeration (User Information): Windows: whoami net user (list all users) net user [username] (get user info) Linux: whoami cat /etc/passwd id Hostname Enumeration: Common Commands: Windows: hostname or systeminfo Linux: uname -a or cat /etc/issue List Services and Processes: Windows: tasklist /SVC Linux: ps aux Network Enumeration: IP Address: Windows: ipconfig Linux: ifconfig Network Routes: Windows: route print Linux: arp -a Network Connections: Windows: netstat -ano Linux: ss -anp Firewall Enumeration: Windows: netsh advfirewall show currentprofile netsh advfirewall firewall show rule name=all Scheduled Tasks Enumeration: Linux: ls -lah /etc/cron* Windows: schtasks /query /fo LIST /v Enumeration of Applications: Linux: dpkg -l or dpkg -l | grep ^ii (installed packages) lsmod (loaded kernel modules) Windows: wmic product get name, version, vendor (installed software) wmic qfe get Caption, Description, HotFixID, InstalledOn (installed updates) Enumeration of Readable/Writable Files and Directories: Windows: Get-ChildItem &amp;quot;C:\Program Files&amp;quot; -Recurse | Get-Acl | Where-Object { $_.</description>
     </item>
   </channel>
 </rss>
