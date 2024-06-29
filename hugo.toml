@@ -13,10 +13,10 @@ style = "github-dark"
 
 [params]
   author = "Ahmed Boureghida"
-  info = "penetration testing student "
+  info = "Future Exploit Developer"
   description = "enjoys sharing what I learn with others"
   keywords = "blog,developer,personal"
-  avatarurl = "https://pbs.twimg.com/profile_images/1773811563712933888/Upe89yfH_400x400.jpg"
+  avatarurl = "https://pbs.twimg.com/profile_images/1791895860776759296/nc21p7Sh_400x400.jpg"
   #gravatar = "0xmid00@gmail.com"
 
   faviconSVG = "/img/favicon.svg"
