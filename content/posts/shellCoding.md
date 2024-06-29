@@ -201,8 +201,19 @@ int main() {
 ### Detailed Explanations:
 - **Null Terminator (`\x00`)**: Indicates the end of a string in memory, preventing overflow.
 - **Memory Blocks**: `PUSH` instruction works with 4-byte blocks. If the string fits perfectly (like `"open"`), no extra null byte is needed.
-- **PUSH Instruction**: Adds data to the stack in reverse order due to its LIFO nature.
 - **MOV Instruction**: Moves data from one location to another, used to store pointers to strings.
 - **CALL Instruction**: Executes the function at the specified memory address, effectively running the shellcode.
+
+### Little Endian vs. LIFO
+
+- **Little Endian**:
+  - In little endian systems, bytes are stored with the least significant byte first. For example, the string "cmd\0" (hex `636d6400`) is stored in memory as `\x00\x64\x6d\x63`.
+  - This byte order is determined by the system architecture.
+
+- **LIFO (Last In, First Out)**:
+  - The stack operates on a LIFO basis, meaning the last item pushed is the first to be popped. This affects the sequence of execution but does not change the byte order.
+
+### PUSH Instruction
+- The `PUSH` instruction adds data to the stack in the order it is given. The bytes are stored in little endian format because of the system architecture, not because of the `PUSH` operation itself.
 
 ---
