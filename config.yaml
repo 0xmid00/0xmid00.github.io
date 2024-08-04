@@ -30,8 +30,8 @@ menu:
 
 params:
 
-  name: Ahmed Boureghida
-  title: Infosec Notes
+  name: 0xmid00
+  title: 0xmid00
 
   # OPTIONAL: custom favicon location
   # favicon: 'location/to/favicon.png'
@@ -88,7 +88,7 @@ params:
     - link_name: X
       link: https://x.com/0xmid00
     - link_name: Linkedin
-      link: www.linkedin.com/in/0xmid00
+      link: https://www.linkedin.com/in/0xmid00
 
   # (Optional, default true) Controls table of contents visibility on right side of pages.
   # Start and end levels can be controlled with markup.tableOfContents setting.
