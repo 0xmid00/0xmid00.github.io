@@ -8,13 +8,13 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e361479ec7e62b94",
+            "id": "33508f8a30df561c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_index.md",
-                "mode": "preview",
+                "file": "Windows/Windows Privilege Escalation/_index.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_index.md",
+                "file": "Windows/Windows Privilege Escalation/_index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_index.md",
+                "file": "Windows/Windows Privilege Escalation/_index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_index.md"
+                "file": "Windows/Windows Privilege Escalation/_index.md"
               }
             }
           }
@@ -146,9 +146,32 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e361479ec7e62b94",
+  "active": "33508f8a30df561c",
   "lastOpenFiles": [
-    "setup/setup.md",
-    "_index.md"
+    "Windows/Windows Privilege Escalation/AlwaysInstallElevated.md",
+    "Windows/Windows Privilege Escalation/_index.md",
+    "Windows/Windows Privilege Escalation/Insecure Service Properties.md",
+    "Windows/_index.md",
+    "Windows/Windows Privilege Escalation/Searching the Registry for Passwords.md",
+    "Windows/Windows Privilege Escalation/Run at startup.md",
+    "Windows/Windows Privilege Escalation/Untitled.md",
+    "Windows/Windows Privilege Escalation/PATH DLL Hijacking.md",
+    "Windows/Windows Privilege Escalation/Services binaries weak permissions.md",
+    "Windows/Windows Privilege Escalation/Services registry modify permissions.md",
+    "Windows/Windows Privilege Escalation/Unquoted Service Paths.md",
+    "Windows/Windows Privilege Escalation/Kernel Exploits.md",
+    "_index.md",
+    "etst/_index.md",
+    "etst",
+    "Windows/Untitled",
+    "Windows/Windows Privilege Escalation/Untitled",
+    "Windows/Windows Privilege Escalation.md",
+    "Windows/Windows Privilege Escalation",
+    "Windows/Windows Privilege Escalation 1.md",
+    "setup/_index.md",
+    "Windows",
+    "Windows/Windows Privilege Escalation/with-toc.md",
+    "Windows/Windows Privilege Escalation/without-toc.md",
+    "setup/setup.md"
   ]
 }
