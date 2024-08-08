@@ -25,3 +25,4 @@ aliases:
 ## Passwords
 
 - [ ] [[Searching the Registry for Passwords]] - `.\winPEASany.exe quiet filesinfo userinfo`
+- [ ] [[Saved Creds]] - `winPEASany.exe quiet cmd windowscreds`
